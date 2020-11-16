@@ -1,4 +1,7 @@
 - inlcude httpd.vars
 - installing apache webserver
-- creating index.html
+- copying httpd.conf
+- creating virtualhost using template
+- creating docuemntroot
+- creating index.html in docuemntroot
 - restarting/enabling apache
