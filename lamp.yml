@@ -6,3 +6,6 @@
 - creating index.html in docuemntroot
 - php support added
 - restarting/enabling apache
+- mariadb installation
+- mariadb restartting 
+- mariadb rootpassword reset
