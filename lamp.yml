@@ -4,4 +4,5 @@
 - creating virtualhost using template
 - creating docuemntroot
 - creating index.html in docuemntroot
+- php support added
 - restarting/enabling apache
