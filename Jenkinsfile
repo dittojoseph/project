@@ -22,7 +22,7 @@ pipeline {
         stage('Deploy') { 
             steps { 
                 
-                 sh''' docker run -itd --name flaskapp -p 83:5000 flaskapp:latest '''
+                 sh''' sudo docker run -itd --name flaskapp -p 83:5000 flaskapp:latest '''
                 }
             }
        }
