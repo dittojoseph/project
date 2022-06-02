@@ -2,7 +2,7 @@ pipeline {
     agent any
     options {
         skipStagesAfterUnstable()
-            }
+    }
     stages {
          stage('Clone repository') { 
             steps { 
@@ -10,7 +10,7 @@ pipeline {
                 checkout scm
                 }
             }
-        
+         }
 
         stage('Build') { 
             steps { 
@@ -28,4 +28,3 @@ pipeline {
        }
    
    }
-}
