@@ -2,7 +2,7 @@ pipeline {
     agent any
     options {
         skipStagesAfterUnstable()
-    }
+            }
     stages {
          stage('Clone repository') { 
             steps { 
@@ -25,6 +25,6 @@ pipeline {
                  sh''' docker run -itd --name flaskapp -p 83:5000 flaskapp:latest '''
                 }
             }
-        }
+       }
    
-    }
+}
