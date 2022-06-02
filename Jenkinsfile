@@ -18,7 +18,7 @@ pipeline {
                  sh''' docker build -t flaskapp . '''
                 }
             }
-        }
+        
         stage('Deploy') { 
             steps { 
                 
