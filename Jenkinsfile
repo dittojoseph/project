@@ -15,7 +15,7 @@ pipeline {
         stage('Build') { 
             steps { 
                 
-                 sh''' docker build -t flaskapp . '''
+                 sh''' sudo docker build -t flaskapp . '''
                 }
             }
         
